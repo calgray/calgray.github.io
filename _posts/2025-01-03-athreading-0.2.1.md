@@ -1,11 +1,11 @@
 ---
-title: "Post: athreading 0.2.1 is released!"
+title: "athreading 0.2.1 released"
 categories:
   - Blog
   - Project
 tags:
   - project
-  - notice
+  - release
 ---
 
 `athreading` is a Python library that allows you to run synchronous I/O functions asynchronously using asyncio via background threads. It provides decorators to adapt synchronous functions and generators, enabling them to operate without blocking the event loop.
