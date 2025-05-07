@@ -5,6 +5,7 @@ categories:
   - project
 tags:
   - project
+  - leap
 ---
 
 [Leap Accelerate](https://gitlab.com/ska-telescope/icrar-leap-accelerate) is a fast radio astronomy calibration library and tool implementing **L**ow-frequence **e**xcision of the **a**tmosphere in **p**arallel.

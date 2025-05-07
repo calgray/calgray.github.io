@@ -3,8 +3,8 @@ title: "SKA LOW first image"
 categories:
   - blog
 tags:
-  - ska
   - news
+  - ska
 ---
 
 It's with great honor to be directly involved with SKA LOW and MID and for the first time publicly releasing a gridded image from the LOW 0.5 rollout. A small but siginificant milestone for many more yet to come.
