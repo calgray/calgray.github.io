@@ -1,7 +1,7 @@
 ---
 title: "Quote: Only two hard problems"
 categories:
-  - Blog
+  - blog
 tags:
   - quote
 ---

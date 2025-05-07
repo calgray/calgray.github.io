@@ -1,7 +1,7 @@
 ---
 title: "SKA LOW first image"
 categories:
-  - Blog
+  - blog
 tags:
   - ska
   - news

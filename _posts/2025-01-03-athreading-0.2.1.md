@@ -1,8 +1,8 @@
 ---
 title: "athreading 0.2.1 released"
 categories:
-  - Blog
-  - Project
+  - blog
+  - project
 tags:
   - project
   - release

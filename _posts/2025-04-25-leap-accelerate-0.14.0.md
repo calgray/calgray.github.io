@@ -1,8 +1,8 @@
 ---
 title: "icrar-leap-accelerate 0.14.0 released"
 categories:
-  - Blog
-  - Project
+  - blog
+  - project
 tags:
   - project
   - release

@@ -1,6 +1,10 @@
 ---
 permalink: /event-horizon/
 title: "event-horizon"
+categories:
+  - project
+tags:
+  - project
 ---
 
 `event-horizon` is a general-purpose event library that provides various event-system for building event-driven systems.
