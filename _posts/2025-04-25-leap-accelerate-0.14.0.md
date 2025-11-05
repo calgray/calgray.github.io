@@ -11,7 +11,7 @@ tags:
 
 Leap in 2023-2024 has gone through a major transformation of delivering python bindings as it's new public interface through [pybind11](https://pybind11.readthedocs.io). The Leap CLI is now completely rewritten in python under the new name `leap-cli`.
 
-### Preview
+## Preview
 
 `leap-cli` is now composed of subcommands, notably `batch/realtime` for selecting between different approaches to processing input, and `dump/plot` for selecting output format.
 
@@ -41,9 +41,9 @@ Leap in 2023-2024 has gone through a major transformation of delivering python b
 
 ![ska low first iamge](/assets/images/posts/leap/Figure_1.png)
 
-### Release Notes
+## Release Notes
 
-    #### 0.14.0
+    ### 0.14.0
 
     Added
 

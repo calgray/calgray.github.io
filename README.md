@@ -18,9 +18,11 @@ Replace sample content with your own and [configure as necessary](https://mmista
 
 ## Serve
 
+```bash
 bundle config set --local path 'vendor/bundle'
 bundle install
 bundle exec jekyll serve --incremental
+```
 
 ---
 

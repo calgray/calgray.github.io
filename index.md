@@ -1,7 +1,8 @@
 ---
 layout: home
-title: "The Gray Area"
+title: ' '
 author_profile: true
+page_width: 1400px
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -13,5 +14,5 @@ header:
       url: "/posts/"
     - label: "About"
       url: "/about/"
-excerpt: "A small site dedicated to for software I've worked on."
+excerpt: "A tiny site dedicated to software engineering practices and projects."
 ---
