@@ -14,5 +14,5 @@ header:
       url: "/posts/"
     - label: "About"
       url: "/about/"
-excerpt: "A tiny site dedicated to software engineering practices and projects."
+excerpt: "A tiny site dedicated to software engineering practices and projects"
 ---
