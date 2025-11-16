@@ -12,4 +12,4 @@ tags:
 
 This was primarily to written to bridge the gap for synchronous `etcd3` clients to run in asynchronous codebases managing dozens or hundreds of concurrent connections.
 
-For the latest version, see https://github.com/calgray/athreading/releases
+For the latest version, see <https://github.com/calgray/athreading>

@@ -7,8 +7,12 @@ tags:
   - project
   - xarray
   - astropy
+header:
+  teaser: /assets/images/posts/astropy/dataset-diagram-logo.webp
 ---
 
-`astropy-xarray` is a fork of `pint-xarray` that incorperates `xastropy` into the `xarray` ecosystem.
+`astropy-xarray` is a fork of `pint-xarray` that incorperates `astropy` into the `xarray` ecosystem.
 
-More information coming soon.
+![](/assets/images/posts/astropy/dataset-diagram-logo.webp)
+
+For more information, see <https://github.com/calgray/astropy-xarray>

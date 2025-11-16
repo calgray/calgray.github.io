@@ -21,9 +21,11 @@ twitter_username: CalGray
 github_username: calgray
 minimal_mistakes_skin: default
 repository: calgray/calgray.github.io
-search: true
+teaser: /assets/images/677817ef5909e.jpg
 
 # Build settings
+search: true
+breadcrumbs: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
@@ -56,7 +58,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-giphy
-  - jekyll-katex
   - jekyll-spaceship
 
 author:
@@ -64,7 +65,7 @@ author:
   avatar : "/assets/images/1523019784431.jpg"
   bio    : "Software Engineer at ICRAR. formerly at University of Western Australia, and Immersive Technologies."
   links:
-    - label: "Website"
+    - label: "Blog"
       icon: "fas fa-fw fa-link"
       url: "https://calgray.github.io"
     - label: "LinkedIn"
@@ -79,6 +80,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/CalGray"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/caljgray.bsky.social"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/calzgy"
@@ -97,6 +101,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/CalGray"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/caljgray.bsky.social"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/calzgy"
@@ -144,9 +151,23 @@ collections:
     output: true
     permalink: /projects/:title/
 
+# plugins
 jekyll-spaceship:
   processors:
+    - mathjax-processor
     - media-processor
+  mathjax-processor:
+    src:
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    config:
+      tex:
+        inlineMath:
+          - ['$','$']
+          - ['\(','\)']
+        displayMath:
+          - ['$$','$$']
+          - ['\[','\]']
   media-processor:
     default:
       id: 'media-{id}'

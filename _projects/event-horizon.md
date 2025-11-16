@@ -6,6 +6,8 @@ categories:
 tags:
   - project
   - event-horizon
+header:
+  teaser: /assets/images/posts/event-horizon/logo-light.png
 ---
 
 `event-horizon` is a general-purpose event library that provides various event-system for building event-driven systems.

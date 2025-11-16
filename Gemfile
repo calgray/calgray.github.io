@@ -15,6 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-giphy"
-  gem "jekyll-katex"
   gem "jekyll-spaceship"
 end

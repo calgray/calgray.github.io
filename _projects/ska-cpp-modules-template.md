@@ -7,6 +7,8 @@ tags:
   - project
   - ska
   - cpp
+header:
+  teaser: /assets/images/posts/cpp/image-3.png
 ---
 
 `ska-cpp-modules-template` is an SKA collective innovation project to explore the early adoption and possibilities C++20 and C++23 using modules.
