@@ -56,6 +56,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-giphy
+  - jekyll-katex
   - jekyll-spaceship
 
 author:
