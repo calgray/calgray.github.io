@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: CalGray
 github_username: calgray
 minimal_mistakes_skin: default
+repository: calgray/calgray.github.io
 search: true
 
 # Build settings
