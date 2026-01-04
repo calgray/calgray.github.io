@@ -16,3 +16,6 @@ header:
       url: "/about/"
 excerpt: "A tiny site dedicated to software engineering practices and projects"
 ---
+
+
+<!-- {% thumbnail_img assets/images/677817ef5909e.jpg 300 %} -->

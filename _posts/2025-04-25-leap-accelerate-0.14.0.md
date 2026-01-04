@@ -8,7 +8,8 @@ tags:
   - release
   - leap
 header:
-  teaser: /assets/images/posts/leap/ionosphere.png
+  teaser: assets/images/posts/leap/ionosphere.png
+  # teaser: 
 ---
 
 Leap in 2023-2024 has gone through a major transformation of delivering python bindings as it's new public interface through [pybind11](https://pybind11.readthedocs.io). The Leap CLI is now completely rewritten in python under the new name `leap-cli`.

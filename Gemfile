@@ -3,9 +3,9 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
+gem "sassc"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
@@ -15,5 +15,10 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-giphy"
+  gem "mini_magick"
+  gem "jekyll-thumbnail-img"
+  # gem 'bigdecimal'
+  # gem 'jekyll-assets', git: "https://github.com/beekeeper-studio/jekyll-assets.git"
   gem "jekyll-spaceship"
+  gem "minimal-mistakes-jekyll"
 end

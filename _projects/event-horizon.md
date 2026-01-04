@@ -7,7 +7,7 @@ tags:
   - project
   - event-horizon
 header:
-  teaser: /assets/images/posts/event-horizon/logo-light.png
+  teaser: assets/images/posts/event-horizon/thumbnails/logo-light_300w.png
 ---
 
 `event-horizon` is a general-purpose event library that provides various event-system for building event-driven systems.
@@ -24,4 +24,7 @@ Note: All **EventListener** share the same single callable protocol as an **Even
 ![diagram](https://cdn.prod.website-files.com/64a7eed956ba9b9a3c62401d/652647842f2ab6136d54c600_Feature%20image%20-%20Event%20driven%20programming.jpg)
 
 Follow this space for the first release!
+
+
+<!-- {% thumbnail_img assets/images/posts/event-horizon/logo-light.png 300 %} -->
 

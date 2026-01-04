@@ -6,7 +6,7 @@ categories:
 tags:
   - project
 header:
-  teaser: /assets/images/posts/boost/header-fg.png
+  teaser: assets/images/posts/boost/header-fg.png
 ---
 
 boostext/ut is C++20 μ(micro)/Unit Testing framework compatible with modern C++ features. The following fork [https://github.com/calgray/ut](https://github.com/calgray/ut) is demonstrated in [ska-cpp-modules-template](https://gitlab.com/ska-telescope/templates/ska-cpp-modules-template/-/blob/main/ska-cpp-modules-template/foobar/tests) compatible with Clang 18.

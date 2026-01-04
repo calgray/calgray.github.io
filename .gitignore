@@ -2,5 +2,6 @@ _site
 _posts_hidden
 .sass-cache
 .jekyll-metadata
+.jekyll-cache/
 Gemfile.lock
 vendor

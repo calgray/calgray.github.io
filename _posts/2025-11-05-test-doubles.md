@@ -4,6 +4,8 @@ categories:
   - blog
 tags:
   - testing
+header:
+  teaser: assets/images/posts/testing/thumbnails/test-doubles-overview_300w.png
 ---
 
 To save on resources and time when testing a software product or application, substitute software components and layers using test doubles.
@@ -49,7 +51,7 @@ Unlike most doubles, Fakes don't necessarily match a desired production interfac
 
 ### Mock
 
-A mock is a behaviour test double usually used in unit tests that:
+A mock is a behavioural test double usually used in unit tests that:
 
 * is interface compliant
 * is behaviourally compliant where it needs to be
@@ -57,8 +59,8 @@ A mock is a behaviour test double usually used in unit tests that:
 
 The advantage of using mocks in testing is that they:
 
-* Can utilize fakes to run much faster than the real components
-* Can be accessed for to see how they were interacted with by the real component, such as:
+* Can utilize **fake** behaviour to run much faster than the real components
+* Can utilize **spy** behaviour to observe how it was interacted with by the real component, such as:
   * Call counts
   * Call order
   * Call arguments
@@ -72,3 +74,9 @@ Simulators are large, complex, executable models for the behaviour of another sy
 Emulators are systems that substitute for an entire platform and execute the real system instructions inside it. They typically perform 1-to-1 translations of entire hardware layers to decouple testing from physically scarce hardware.
 
 Very similar to emulators are compatibility layers, which intentionally simplify or skip certain behaviours deemed not important for typical use, or serve as an adapter for inputs and outputs.
+
+## Testing Resources
+
+https://principal-it.eu/blog.html
+
+<!-- {% thumbnail_img assets/images/posts/testing/test-doubles-overview.png 300 %} -->

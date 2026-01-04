@@ -21,13 +21,16 @@ twitter_username: CalGray
 github_username: calgray
 minimal_mistakes_skin: default
 repository: calgray/calgray.github.io
-teaser: /assets/images/677817ef5909e.jpg
+teaser: assets/images/thumbnails/677817ef5909e_300w.jpg
 
 # Build settings
 search: true
 breadcrumbs: true
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+cache_dir: .jekyll-cache
+#remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -58,12 +61,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-giphy
+  - jekyll-thumbnail-img
   - jekyll-spaceship
 
 author:
   name   : "Callan Gray"
   avatar : "/assets/images/1523019784431.jpg"
-  bio    : "Software Engineer at ICRAR. formerly at University of Western Australia, and Immersive Technologies."
+  bio    : "Software Engineer at ICRAR and SKAO. formerly at University of Western Australia."
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
@@ -152,6 +156,13 @@ collections:
     permalink: /projects/:title/
 
 # plugins
+# assets:
+#   destintion: "/assets"
+#   caching:
+#     enabled: true
+#     path: ".jekyll-cache/assets"
+#     type: file
+
 jekyll-spaceship:
   processors:
     - mathjax-processor
